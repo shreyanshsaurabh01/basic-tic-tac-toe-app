@@ -1,0 +1,3 @@
+Basic Tic Tac Toe App is a clean, fully browser-based implementation of the classic two-player Tic Tac Toe game, built with vanilla HTML, CSS, and JavaScript — no frameworks, no dependencies, and no build tools required. Designed for users aged 18 and older, the app features a polished and responsive interface where two players take turns marking X and O on a 3×3 grid, with automatic win detection, draw detection, a live score tracker that persists across rounds, and a full game reset option. The codebase is organized into clearly separated concerns — structure in HTML, presentation in CSS, and all game logic in JavaScript — making it straightforward to read, maintain, and extend.
+
+How to run: open index.html in any browser — no build step required.

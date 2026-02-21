@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+<span class="nav-title">Tic Tac Toe</span>
+<ul>
+<li><a href="#" data-section="home">Home</a></li>
+<li><a href="#" data-section="dashboard">Dashboard</a></li>
+</ul>
+</nav>
+<main>
+<section id="home">
+<h1>Welcome to Tic Tac Toe</h1>
+<div id="game-container">
+<div id="status-message"></div>
+<div id="board">
+<button class="cell" data-index="0"></button>
+<button class="cell" data-index="1"></button>
+<button class="cell" data-index="2"></button>
+<button class="cell" data-index="3"></button>
+<button class="cell" data-index="4"></button>
+<button class="cell" data-index="5"></button>
+<button class="cell" data-index="6"></button>
+<button class="cell" data-index="7"></button>
+<button class="cell" data-index="8"></button>
+</div>
+<button id="restart-btn">Restart Game</button>
+</div>
+</section>
+<section id="dashboard">
+<h1>Dashboard</h1>
+<div id="scoreboard">
+<div class="score-card">
+<h2>Player X</h2>
+<p id="score-x">0</p>
+</div>
+<div class="score-card">
+<h2>Player O</h2>
+<p id="score-o">0</p>
+</div>
+<div class="score-card">
+<h2>Draws</h2>
+<p id="score-draw">0</p>
+</div>
+</div>
+<button id="reset-scores-btn">Reset Scores</button>
+</div>
+</section>
+</main>
+<script src="js/main.js"></script>
+</body>
+</html>
